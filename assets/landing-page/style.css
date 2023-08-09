@@ -1,0 +1,136 @@
+.info-section {
+  padding: 20px;
+  background-color: #212f60;
+}
+.intro-bg {
+  position: relative;
+}
+.intro-video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+  opacity: 1;
+  height: 100%;
+  object-position: top;
+}
+.intro-section {
+  position: relative;
+  padding: 140px 0;
+  color: white;
+}
+.trailer-icon {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.bg-1 {
+  background: none;
+}
+
+.bg-2 {
+  background: none;
+}
+
+.bg-2-sm {
+  background: url("bg/bg-sm-2.png") top center/cover no-repeat;
+  width: 100%;
+  height: 111vw;
+}
+
+.bg-3 {
+  background: url("bg/bg-sm-3.webp") no-repeat;
+  background-position: 0px 0%;
+  background-size: 100% auto;
+  padding: 120px 0;
+}
+
+.bg-sm-4 {
+  background: url(bg/bg-sm-4.webp) top center/cover no-repeat;
+  background-size: 100% auto !important;
+  background-position: bottom center !important;
+  min-height: 61vw;
+  padding-bottom: 107vw;
+}
+
+.bg-5 {
+  background: url("bg/bg-sm-5.webp") top center/cover no-repeat;
+  min-height: 61vw;
+  padding-top: 16px;
+  margin-top: 10px;
+  padding-bottom: 115vw;
+  background-size: 100% auto !important;
+  background-position: bottom center !important;
+}
+
+.stream-icon {
+  max-width: clamp(267px, 90%, 464px);
+}
+
+.slider img,
+.slider .slider-text {
+  width: 350px;
+  margin: 0 20px;
+}
+
+.slider-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #706f73;
+}
+
+.slider-people img {
+  width: 100%;
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+.warranty-icon {
+  max-width: 115px;
+}
+
+.description {
+  font-size: 14px;
+  /* color: #e8eaee; */
+}
+
+footer a,
+footer p {
+  text-decoration: none;
+  color: #706f73;
+  font-size: 10px;
+}
+
+@media (min-width: 576px) {
+  .intro-section {
+    padding: 170px 0;
+  }
+  .description {
+    width: clamp(300px, 45%, 500px);
+  }
+  .bg-1 {
+    background: url("bg/bg-1.webp") top center/cover no-repeat;
+    background-position: top right !important;
+    background-size: 65% !important;
+  }
+  .bg-2 {
+    background: url("bg/bg-2.jpg") top center/cover no-repeat;
+    background-position: 40% 50%;
+  }
+  .bg-3 {
+    background: url("bg/bg-3.webp") no-repeat;
+  }
+  .bg-4 {
+    background: url("bg/bg-4.webp") center/cover no-repeat;
+    background-position: bottom center !important;
+    background-size: 100% auto !important;
+    min-height: 56vw;
+  }
+  .bg-sm-5 {
+    background: url("bg/bg-5.jpg") top center/cover no-repeat;
+    background-size: cover !important;
+    background-position: top center !important;
+    min-height: 53vw;
+  }
+}
